@@ -14740,7 +14740,7 @@ h2,h3{page-break-after:avoid;}
     font-style: normal;
   }
 
-  h1,
+  /* h1,
   h2,
   h3 {
     font-family: 'Livvic', sans-serif;
@@ -14752,7 +14752,7 @@ h2,h3{page-break-after:avoid;}
     color: #0a0a0a;
     margin: 0 0 8px;
     transition: .5s;
-  }
+  } */
 
   a {
     color: #17161a;
@@ -14848,8 +14848,8 @@ h2,h3{page-break-after:avoid;}
   }
 
   .team_single_title h1 {
-    font-size: 17px;
     color: var(--bs-body-four);
+    margin-bottom: 1.5rem;
   }
 
   .single_team_list ul li i {
@@ -14863,8 +14863,9 @@ h2,h3{page-break-after:avoid;}
     text-align: center;
     transition: .5s;
     display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    /* margin-right: 10px;
+    margin-bottom: 10px; */
+    margin: 20px 10px 10px 0px;
   }
 
   .single_team_list ul li i:hover {
@@ -14872,7 +14873,7 @@ h2,h3{page-break-after:avoid;}
   }
 
   .team_single_btn {
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   .team_single_btn a {
@@ -14917,7 +14918,278 @@ h2,h3{page-break-after:avoid;}
 .single-container{
   padding: 100px 0px;
 }
+----------------------------------------------------------------------------------------------------------------------
+.section_main_title h3 {
+  margin: 40px 0px 0px 0px;
+}
+ 
+.team_skill_thumb {
+  text-align: center;
+}
+------------------------------------------------------------------------------------------------------------------------
 
+/*! CSS Used from: file:///C:/Users/knkor/Kostya/%D0%A1%D0%B0%D0%B9%D1%82%D0%BE%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5/%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0-251222/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B0%D0%B9%D1%82%D1%8B/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5/yufa/css/vendors/bootstrap.min.css */
+/* *,::after,::before{box-sizing:border-box;}
+h1{margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2;}
+h1{font-size:calc(1.375rem + 1.5vw);}
+@media (min-width:1200px){
+h1{font-size:2.5rem;}
+}
+ul{padding-left:2rem;}
+ul{margin-top:0;margin-bottom:1rem;}
+a{color:var(--bs-link-color);text-decoration:underline;}
+a:hover{color:var(--bs-link-hover-color);}
+.container{--bs-gutter-x:1.5rem;--bs-gutter-y:0;width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+@media (min-width:1400px){
+.container{max-width:1320px;}
+}
+.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x));}
+.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y);}
+.col-12{flex:0 0 auto;width:100%;}
+.breadcrumb{--bs-breadcrumb-padding-x:0;--bs-breadcrumb-padding-y:0;--bs-breadcrumb-margin-bottom:1rem;--bs-breadcrumb-divider-color:#6c757d;--bs-breadcrumb-item-padding-x:0.5rem;--bs-breadcrumb-item-active-color:#6c757d;display:flex;flex-wrap:wrap;padding:var(--bs-breadcrumb-padding-y) var(--bs-breadcrumb-padding-x);margin-bottom:var(--bs-breadcrumb-margin-bottom);font-size:var(--bs-breadcrumb-font-size);list-style:none;background-color:var(--bs-breadcrumb-bg);border-radius:var(--bs-breadcrumb-border-radius);}
+.breadcrumb-item+.breadcrumb-item{padding-left:var(--bs-breadcrumb-item-padding-x);}
+.breadcrumb-item+.breadcrumb-item::before{float:left;padding-right:var(--bs-breadcrumb-item-padding-x);color:var(--bs-breadcrumb-divider-color);content:var(--bs-breadcrumb-divider, "/");}
+.breadcrumb-item.active{color:var(--bs-breadcrumb-item-active-color);}
+.d-flex{display:flex!important;}
+.align-items-center{align-items:center!important;} */
+/*! CSS Used from: file:///C:/Users/knkor/Kostya/%D0%A1%D0%B0%D0%B9%D1%82%D0%BE%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5/%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0-251222/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B0%D0%B9%D1%82%D1%8B/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5/yufa/css/vendors/animate.css */
+.fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp;}
+/*! CSS Used from: file:///C:/Users/knkor/Kostya/%D0%A1%D0%B0%D0%B9%D1%82%D0%BE%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5/%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0-251222/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B0%D0%B9%D1%82%D1%8B/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5/yufa/css/vendors/all.min.css */
+.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;}
+.fa-home:before{content:"\f015";}
+.fas{font-family:"Font Awesome 5 Free";}
+.fas{font-weight:900;}
+/*! CSS Used from: file:///C:/Users/knkor/Kostya/%D0%A1%D0%B0%D0%B9%D1%82%D0%BE%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5/%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0-251222/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B0%D0%B9%D1%82%D1%8B/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5/yufa/css/vendors/splitting.css */
+.splitting .word,.splitting .char{display:inline-block;}
+.splitting .char{position:relative;}
+.splitting .char::before,.splitting .char::after{content:attr(data-char);position:absolute;top:0;left:0;visibility:hidden;transition:inherit;user-select:none;}
+.splitting{--word-center:calc((var(--word-total) - 1) / 2);--char-center:calc((var(--char-total) - 1) / 2);--line-center:calc((var(--line-total) - 1) / 2);}
+.splitting .word{--word-percent:calc(var(--word-index) / var(--word-total));--line-percent:calc(var(--line-index) / var(--line-total));}
+.splitting .char{--char-percent:calc(var(--char-index) / var(--char-total));--char-offset:calc(var(--char-index) - var(--char-center));--distance:calc(      (var(--char-offset) * var(--char-offset)) / var(--char-center)   );--distance-sine:calc(var(--char-offset) / var(--char-center));--distance-percent:calc((var(--distance) / var(--char-center)));}
+/*! CSS Used from: file:///C:/Users/knkor/Kostya/%D0%A1%D0%B0%D0%B9%D1%82%D0%BE%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5/%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0-251222/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B0%D0%B9%D1%82%D1%8B/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5/yufa/css/main-LTR-1.css */
+.page-hero .hero-text-area .hero-title.splitting .char,
+.page-hero .hero-text-area .hero-title.splitting .word {
+  opacity: 0;
+  animation: fadeInDown 0.5s forwards ease-in-out;
+}
+
+.page-hero .hero-text-area .hero-title.splitting .char {
+  animation-delay: calc(0.5s + 0.03s * var(--char-index));
+}
+
+.page-hero .hero-text-area .hero-title.splitting .word {
+  animation-delay: calc(0.5s + 0.08s * var(--word-index));
+}
+
+section {
+  overflow: hidden;
+  position: relative;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+body.overlay-is-linear-gradient .overlay-color {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  transition: all 0.5s ease-in-out 0s;
+  background: -webkit-linear-gradient(45deg, #113f8a, #08bce9);
+  opacity: 0.75;
+}
+
+.parallax {
+  background-attachment: fixed !important;
+}
+
+.overlay-photo-image-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  transition: all 0.5s ease-in-out 0s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.05;
+}
+
+*::selection {
+  background: #08bce9;
+  color: #fff;
+}
+
+.page-hero {
+  position: relative;
+  z-index: 0;
+  min-height: 100vh;
+  padding: 120px 0;
+  background: #08bce9;
+  background: -webkit-linear-gradient(45deg, #113f8a, #08bce9);
+}
+
+@media (max-width: 991px) {
+  .page-hero {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+@media (max-height: 600px) {
+  .page-hero {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .page-hero .hero-text-area {
+    text-align: center;
+  }
+}
+
+.page-hero .hero-text-area .hero-title {
+  /* font-family: "Montserrat", "sans-serif";
+  font-weight: 800;
+  font-size: 4rem;
+  text-transform: capitalize;
+  margin-bottom: 1.25rem; */
+  color: #fff;
+  line-height: 1.2;
+}
+
+@media (max-width: 991px) {
+  .page-hero .hero-text-area .hero-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-hero .hero-text-area .hero-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .page-hero .hero-text-area .hero-title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+
+@media (max-height: 500px) {
+  .page-hero .hero-text-area .hero-title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+
+.page-hero .hero-text-area .splitting .char {
+  text-transform: initial;
+}
+
+.page-hero .hero-text-area .splitting .char:first-child {
+  text-transform: uppercase;
+}
+
+.page-hero .overlay-photo-image-bg {
+  background-image: url("/assets/img/team-member/inner-page-hero.jpg");
+  opacity: 1;
+}
+
+@media (max-width: 991px) {
+  .page-hero .overlay-photo-image-bg {
+    background-image: url("/assets/img/team-member/inner-page-hero.jpg");
+  }
+}
+
+.page-hero .overlay-color {
+  opacity: 0.7 !important;
+}
+
+.inner-page-hero {
+  height: 60vh;
+  min-height: 60vh;
+}
+
+.inner-page-hero .hero-text-area .hero-title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+@media (max-width: 991px) {
+  .inner-page-hero .hero-text-area .hero-title {
+    font-size: 3rem;
+  }
+}
+
+.inner-page-hero .hero-text-area .breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.inner-page-hero .hero-text-area .breadcrumb .icon {
+  margin-right: 0.5rem;
+}
+
+.inner-page-hero .hero-text-area .breadcrumb-item {
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 1199px) {
+  .inner-page-hero .hero-text-area .breadcrumb-item {
+    font-size: 1rem;
+  }
+}
+
+.inner-page-hero .hero-text-area .breadcrumb-item:before {
+  color: #fff;
+  padding-right: 0.5rem;
+}
+
+.inner-page-hero .hero-text-area .breadcrumb-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.25s ease-in 0s;
+}
+
+.inner-page-hero .hero-text-area .breadcrumb-link:hover {
+  color: #08bce9;
+}
+/*! CSS Used keyframes */
+@-webkit-keyframes fadeInUp{from{opacity:0;-webkit-transform:translate3d(0, 100%, 0);transform:translate3d(0, 100%, 0);}to{opacity:1;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);}}
+@keyframes fadeInUp{from{opacity:0;-webkit-transform:translate3d(0, 100%, 0);transform:translate3d(0, 100%, 0);}to{opacity:1;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);}}
+@-webkit-keyframes fadeInDown{from{opacity:0;-webkit-transform:translate3d(0, -100%, 0);transform:translate3d(0, -100%, 0);}to{opacity:1;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);}}
+@keyframes fadeInDown{from{opacity:0;-webkit-transform:translate3d(0, -100%, 0);transform:translate3d(0, -100%, 0);}to{opacity:1;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);}}
 
 
 /* ------------------------------------------------------Team-single End---------------------------------------------*/
