@@ -13259,9 +13259,9 @@ border-radius: 30px;
 
 .about-area .skills .skill-item .skill-progress {
   position: relative;
-  height: 5px;
+  height: 10px;
   border-radius: 5px;
-  background: #00000063;
+  background: var(--bs-body-two);
 }
 
 .about-area .skills .skill-item .skill-progress .progres {
@@ -15091,12 +15091,12 @@ body.overlay-is-linear-gradient .overlay-color {
   }
 }
 
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
   .page-hero .hero-text-area .hero-title {
     font-size: 2rem;
     font-weight: 700;
   }
-}
+} */
 
 @media (max-height: 500px) {
   .page-hero .hero-text-area .hero-title {
