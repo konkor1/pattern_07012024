@@ -15204,7 +15204,82 @@ body.overlay-is-linear-gradient .overlay-color {
   color: #08bce9;
 }
 /* ------------------------------------------------------------------------------------------ */
-
+.image-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.image-container img {
+  width: 300px; /* Начальный размер */
+  transition: opacity 0.3s ease;
+}
+.image-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+.image-container:hover .overlay {
+  opacity: 1;
+}
+.image-container .plus-icon {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  pointer-events: none;
+}
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 1060;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.modal-content {
+  position: relative;
+  max-width: 70%;
+  max-height: 90%;
+  /* border: 10px solid white;  */
+}
+.modal-content img {
+  width: 100%;
+  height: auto;
+}
+.close-btn {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 40px;
+  height: 40px;
+  background: white;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: solid 3px black;
+}
+.close-btn:hover {
+  background: #ccc;
+}
 
 
 /* ------------------------------------------------------Team-single End---------------------------------------------*/
