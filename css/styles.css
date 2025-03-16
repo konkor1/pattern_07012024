@@ -15132,13 +15132,13 @@ body.overlay-is-linear-gradient .overlay-color {
 }
 
 .page-hero .overlay-photo-image-bg {
-  background-image: url("/assets/img/team-member/inner-page-hero.jpg");
+  background-image: url("../assets/img/team-member/inner-page-hero.jpg");
   opacity: 1;
 }
 
 @media (max-width: 991px) {
   .page-hero .overlay-photo-image-bg {
-    background-image: url("/assets/img/team-member/inner-page-hero.jpg");
+    background-image: url("../assets/img/team-member/inner-page-hero.jpg");
   }
 }
 
