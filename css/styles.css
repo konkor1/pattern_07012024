@@ -4819,10 +4819,7 @@ textarea.form-control-lg {
   margin-bottom: 0;
 }
 
-/* .accordion-item {
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-} */
+
 .accordion-item:first-of-type {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
@@ -6179,7 +6176,7 @@ textarea.form-control-lg {
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
-.carousel-control-next {
+  .carousel-control-next {
     transition: none;
   }
 }
@@ -7336,8 +7333,8 @@ textarea.form-control-lg {
 }
 
 .mx-2 {
-  margin: 0.5rem !important;
-  /* margin-left: 0.5rem !important; */
+  margin-right: 0.5rem !important;
+  margin-left: 0.5rem !important;
 }
 
 .mx-3 {
@@ -7786,10 +7783,6 @@ textarea.form-control-lg {
 .text-lowercase {
   text-transform: lowercase !important;
 }
-/* 
-.text-uppercase {
-  text-transform: uppercase !important;
-} */
 
 .text-capitalize {
   text-transform: capitalize !important;
@@ -11397,9 +11390,7 @@ p {
 
 .page-section {
   padding: 6rem 0;
-}
- 
- 
+} 
 
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -11465,7 +11456,6 @@ p {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
   color: var(--bs-body-bg);
-  /* color: var(--bs-body-color);  */
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, 
 #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -11475,9 +11465,7 @@ p {
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
   color: var(--bs-body-color);
 }
-/* #mainNav.navbar-shrink .show .navbar-nav .nav-item .nav-link {
-  color: var(--bs-body-bg);
-} */
+
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
   color: var(--bs-body-four);
 }
@@ -11905,14 +11893,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   line-height: 1.3;
 }
 
-/* .brand-text {
-  color: var(--bs-body-color);
-  font-size: 0.8rem;
-  font-weight: 600;
-  margin-top: -0.3rem;
-  text-align: center;
-  font-family: OpenSansRegular, sans-serif;
-} */
 .navbar-shrink .brand-name1 {
   color: var(--bs-body-four);
 }
@@ -12110,10 +12090,6 @@ img {
 img.wow {
   margin-bottom: 38px;
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-  /* animation: jumping 3s ease-in-out 0.5s infinite alternate;
-  animation-delay: 0.5s;
-  transition: all 0.5s ease 5s;
-  transition-duration: 1.2s; */
   border-radius: 10px;
 }
 p.text-color, p.accordion-content {
@@ -12330,7 +12306,6 @@ ul {
   padding: 20px 15px;
   font-size: 15px;
   -webkit-box-shadow: -1px 10px 20px 1px rgb(119 99 99 / 40%);
-  /* box-shadow: -1px 5px 20px 0px rgb(119 99 99 / 30%); */
   box-shadow: -1px 10px 20px 1px rgb(119 99 99 / 40%);
 }
 
@@ -12390,8 +12365,6 @@ a:hover {
 .accordion-item a:where(:not(.wp-element-button)):focus {
   text-decoration: none;
 }
-
-
 
 .faq-accordion .accordion .accordion-item.about-title {
   margin-bottom: 10px;
@@ -12554,10 +12527,7 @@ h4 {
 .mb-4 {
   margin-bottom: 1.5rem !important;
 }
-/* 
-.text-center {
-  text-align: center !important;
-} */
+
 
 @media print {
 
@@ -12783,7 +12753,6 @@ section {
   }
 
   .plases_icon {
-    /* float: left; */
     overflow: hidden;
   }
 
@@ -12865,7 +12834,6 @@ section {
   margin-top: 0px;
 }
 section#contact {
-  /* background-color: rgb(51 83 108 / 85%); */
   background-color: var(--bs-body-three);
   background-image: url('../assets/img/map-image.png');
   background-repeat: no-repeat;
@@ -12993,9 +12961,6 @@ section#contact {
   .slider {
     display: none;
   }
-  /* .about-one {
-    padding: 8rem 0 0 0;
-  } */
 }
 @media (min-width:993px) {
   header.masthead {
@@ -13033,7 +12998,7 @@ section#contact {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* здесь можно изменить цвет и прозрачность затемнения */
+  background-color: rgba(0, 0, 0, 0.7); 
   z-index: 1;
 }
 .slide-info {
@@ -13124,9 +13089,6 @@ section#contact {
   background-color: var(--bs-body-four);
   color: var(--bs-body-bg);
   border: 2px solid  var(--bs-body-four);
-  /* color: var(--bs-body-bg);
-  background-color: transparent;
-  border: 2px solid var(--bs-body-bg); */
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 3px;
@@ -13385,7 +13347,6 @@ div.wpforms-container-full .wpforms-field-label {
 div.wpforms-container-full input[type=email],
 div.wpforms-container-full input[type=text], 
 div.wpforms-container-full textarea {
-  /* background-color:  var(--bs-body-three); */
   color: var(--bs-body-color);
   border-color: var(--bs-body-four);
   border-radius: 5px;
@@ -13417,8 +13378,6 @@ div.wpforms-container-full button[type=submit]:not(:hover):not(:active) {
 
 div.wpforms-container-full button[type=submit]:hover {
   background-color: #5a329e;
-  /* color: var(--bs-body-one);
-  border: 1px solid var(--bs-body-one); */
   transition: all 0.3s ease-in-out;
   padding: 0px 40px;
   box-shadow: none;
@@ -13701,16 +13660,10 @@ a:where(:not(.wp-element-button)):focus {
 }
 
 .parallax {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 100%;
-  width: 100%; */
+
   background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../assets/img/team/bg-team.jpg');
   background-size: cover;
   background-attachment: fixed;
-  /* color: #fff; */
 }
 /* ------------------------------------------------End Team---------------------------------------------------- */
 
@@ -13764,9 +13717,6 @@ a:where(:not(.wp-element-button)):focus {
 }
 
 
-/* .clpricing-table .price-table.style4 .cl-col-md-4 {
-  padding: 0;
-} */
 
 .clpricing-table .price-table.style4 .cl-col-md-4:nth-child(odd) .cl-pricetable-wrap {
   padding-bottom: 35px;
@@ -13789,14 +13739,6 @@ a:where(:not(.wp-element-button)):focus {
   text-align: center;
 }
 
-/* .clpricing-table .price-table.style4 .cl-pricetable-wrap .top .cl-header h4 {
-  font-size: 19px;
-  font-weight: bold;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 34px 0 0;
-  text-transform: uppercase;
-} */
 
 .clpricing-table .price-table.style4 .cl-pricetable-wrap .top h3 {
   margin: 4px 0 44px;
@@ -14072,15 +14014,11 @@ a:where(:not(.wp-element-button)):focus {
   color: var(--bs-body-bg);
   border-radius: 5px;
   box-shadow: 10px 15px 18px rgba(23,23,36,0.15);
-    /* transition: all 0.2s ease-in-out;
-    opacity: 1; */
 }
 
 .readon:hover,
 .readon:focus {
-  /* background: var(--bs-body-three); */
   background: #2ca46d;
-  /* color: var(--bs-body-five); */
   border: 1px solid #2ca46d;
   box-shadow: none;
 }
@@ -14106,25 +14044,12 @@ a:where(:not(.wp-element-button)):focus {
   color: var(--bs-body-one);
 }
 
-/* .style4 .cl-pricetable-wrap.price-1 .bottom {
-  background: var(--bs-body-bg);
-  color: var(--bs-body-one);
-} */
-
-/* .style4 .cl-pricetable-wrap.price-1 {
-  background: var(--bs-body-three);
-} */
 
 
 .clpricing-table .price-table.style4 .cl-pricetable-wrap:hover {
   border: 1px solid var(--bs-body-four);
   color: var(--bs-body-bg);
   transition: all 0.7s ease 0s;
-}
-
-.clpricing-table .price-table.style4 .cl-pricetable-wrap:hover .top {
-
-  /* color: var(--bs-body-bg); */
 }
 
 .clpricing-table .price-table.style4 .cl-pricetable-wrap:hover .top .cl-header h4,
@@ -14148,7 +14073,6 @@ a:where(:not(.wp-element-button)):focus {
   font-weight: 700;
   position: relative;
   margin-bottom: 70px;
-  /* text-transform: uppercase; */
   z-index: 999;
 }
 .white-heading{
@@ -14168,11 +14092,7 @@ a:where(:not(.wp-element-button)):focus {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* .white-heading:after {
-  background: url(https://i.ibb.co/d7tSD1R/heading-line-white.png);
-  background-repeat: no-repeat;
-  background-position: center;
-} */
+
 
 .heading span {
   font-size: 18px;
@@ -14183,14 +14103,13 @@ a:where(:not(.wp-element-button)):focus {
   color: var(--bs-body-two);
 }
 
-/*-----Testimonial-------*/
+/*--------------Testimonial------------------*/
 
 .testimonial:after {
   position: absolute;
   top: -0 !important;
   left: 0;
   content: " ";
-  /* background: url(img/testimonial.bg-top.png); */
   background-size: 100% 100px;
   width: 100%;
   height: 100px;
@@ -14364,7 +14283,6 @@ text-align: center;
 }
 .testimonial4_slide h4 {
   color: var(--bs-body-bg);
-  /* font-size: 22px; */
 }
 
 .testimonial .carousel {
@@ -14377,57 +14295,6 @@ padding-bottom:50px;
 /* ------------------------------------------------------Testimonial End---------------------------------------------*/
 
 /* ------------------------------------------------------Counter Start---------------------------------------------*/
-
-
-/* 
-section{display:block;}
-h2,h3{margin-top:0;margin-bottom:.5rem;}
-h2,h3{margin-bottom:.5rem;font-weight:500;line-height:1.2;}
-h2{font-size:2rem;}
-h3{font-size:1.75rem;}
-.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;} */
-/* @media (min-width:576px){
-.container{max-width:540px;}
-}
-@media (min-width:768px){
-.container{max-width:720px;}
-}
-@media (min-width:992px){
-.container{max-width:960px;}
-}
-@media (min-width:1200px){
-.container{max-width:1140px;}
-}
-@media (min-width:576px){
-.container{max-width:540px;}
-}
-@media (min-width:768px){
-.container{max-width:720px;}
-}
-@media (min-width:992px){
-.container{max-width:960px;}
-}
-@media (min-width:1200px){
-.container{max-width:1140px;}
-} */
-/* .row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
-.col-lg-3,.col-md-6{position:relative;width:100%;padding-right:15px;padding-left:15px;}  */
- /* @media (min-width:768px){
-.col-sm-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
-}
-@media (min-width:992px){
-  .col-md-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;}
-  } */
-/* @media print{
-h2,h3{orphans:3;widows:3;}
-h2,h3{page-break-after:avoid;}
-.container{min-width:992px!important;}
-} */
-/* .section-padding {
-  padding: 100px 0;
-} */
-
-
 
 .counter-area {
   text-align: center;
