@@ -13,7 +13,7 @@
  */
 
 :root {
-  --bs-blue: #0d6efd;
+  /* --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -61,7 +61,7 @@
   --bs-body-font-family: Inter, OpenSansRegular, Poppins, Roboto, Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 500;
-  --bs-body-line-height: 1.42;
+  --bs-body-line-height: 1.42; */
 
   /* --bs-body-color: #fafafcdb;
   --bs-body-bg: #191923;
@@ -72,9 +72,9 @@
   --bs-body-four: #252531;
   --bs-body-five: #1E1E28; */
 
-  --bs-black: #000000;
+  /* --bs-black: #000000;
   --bs-white: #ffffff;
-  --bs-body-font-family-my: Inter, OpenSansRegular, sans-serif !important;
+  --bs-body-font-family-my: Inter, OpenSansRegular, sans-serif !important; */
 
   /* --bs-body-color: #000000;
   --bs-bg: #ffffff;
@@ -109,7 +109,7 @@
 
 
   /* зел и гол */
-  --bs-body-color: #000000;
+  /* --bs-body-color: #000000;
   --bs-body-bg: #ffffff;
   --bs-body-text: #5d5d66;
 
@@ -117,7 +117,7 @@
   --bs-body-two: #31C77F;
   --bs-body-three: #617AB4;
   --bs-body-four: #6B39BD;
-  --bs-body-five: #171724;
+  --bs-body-five: #171724; */
 
 
 
@@ -126,9 +126,63 @@
 
   /* --wp--style--root--padding-left: var(--wp--preset--spacing--30); */
 
+ /* Primary Brand Color */
+  --bs-primary: #31C77F; /*Кнопки, ссылки, выделение текста, ховер-эффекты акценты*/
+  --bs-primary-hover: #29A56C; /*Наведение на кнопку*/
+  --bs-primary-light: #B6E7D2; /*Для градиентов/фона*/
+  --bs-primary-dark: #218C5A; /*Для градиентов/фона*/
 
+  /* Secondary Accent */
+  --bs-secondary: #617AB4; /*Иконки, вторичные кнопки*/
+  --bs-secondary-hover: #4B659E; /*Наведение*/
+
+  /* Additional Accent */
+  --bs-accent: #6B39BD; 	/*Hero-блоки, фон секций*/
+  --bs-accent-hover: #592AA6; /*Активный цвет*/
+
+  /* Neutrals and Backgrounds */
+  --bs-light: #DAE4DE; /*Фон секций, карточек*/
+  --bs-dark: #171724; /*	Текст, футер, фон модалок*/
+  --bs-white: #ffffff;
+  --bs-black: #000000;
+
+  /* Bootstrap Status Colors */
+  --bs-success: #198754;
+  --bs-danger: #dc3545;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc800;
+
+  /* Neutrals for UI */
+  --bs-gray-100: #f8f9fa; /*Фон карточек, вводов*/
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da; /*Границы, инпуты*/
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d; /*Вторичный текст*/
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+
+  /* Text and body settings */
+  --bs-body-font-family: Inter, OpenSansRegular, sans-serif !important;
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 500;
+  --bs-body-line-height: 1.42;
+  --bs-body-color: var(--bs-dark);
+  --bs-body-bg: var(--bs-white);
+  --bs-body-text: #5d5d66;
+
+  /* Extended palette for custom roles */
+  --bs-body-one: var(--bs-light);
+  --bs-body-two: var(--bs-primary);
+  --bs-body-three: var(--bs-secondary);
+  --bs-body-four: var(--bs-accent);
+  --bs-body-five: var(--bs-dark);
   
 } 
+
+ 
+
 
 *,
 *::before,
