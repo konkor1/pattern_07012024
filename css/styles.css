@@ -13,19 +13,42 @@
  */
 
 :root {
-  /* --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc800;
-  --bs-green: #198754;
-  --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
-  --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
+    
+ /* Primary Color */
+  --bs-primary: #2C6BC0; /* Основной синий: кнопки, ссылки, акценты */
+  --bs-primary-hover: #24589e; /* Наведение */
+  --bs-primary-light: #5a8ecd; /* Светлый вариант фона, градиенты */
+  --bs-primary-dark: #1e4a81; /* Темный вариант */
+
+  /* Secondary Color */
+  --bs-secondary: #D8B988; /* Вторичный бежевый: выделения, акценты */
+  --bs-secondary-hover: #c0a373; /* Наведение */
+  --bs-secondary-light: #e0cbb0; /* Светлый вариант фона */
+  --bs-secondary-dark: #9e825e; /* Темный вариант */
+
+  /* Accent Color */
+  --bs-accent: #7571B4; /* Фиолетовый акцент: заголовки, графика */
+  --bs-accent-hover: #605c96; /* Наведение */
+  --bs-accent-light: #a09cd0; /* Светлый вариант */
+  --bs-accent-dark: #524f7e; /* Темный вариант */
+
+  /* Light Neutral */
+  --bs-light: #FAF9F9; /* Светлый нейтральный: основной фон, светлые элементы */
+  --bs-light-hover: #e2e1e1;
+  --bs-white: #ffffff;
+
+  /* Dark Neutral */
+  --bs-dark: #282253; /* Темный нейтральный: фон, текст, акценты */
+  --bs-dark-hover: #1e1a3e;
+  --bs-black: #000000;
+
+  /* Bootstrap Status Colors (можно оставить по умолчанию или настроить) */
+  --bs-success: #198754;
+  --bs-danger: #dc3545;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc800;
+
+  /* Neutrals for UI (можно оставить по умолчанию или настроить) */
   --bs-gray-100: #f8f9fa;
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;
@@ -35,153 +58,31 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #ffc800;
-  --bs-secondary: #6c757d;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc800;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #212529;
-  --bs-primary-rgb: 255, 200, 0;
-  --bs-secondary-rgb: 108, 117, 125;
-  --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
-  --bs-warning-rgb: 255, 200, 0;
-  --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
-  --bs-white-rgb: 255, 255, 255;
-  --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Inter, OpenSansRegular, Poppins, Roboto, Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+  /* Text and body settings (можете настроить под свои нужды) */
+  --bs-body-font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 500;
-  --bs-body-line-height: 1.42; */
-
-  /* --bs-body-color: #fafafcdb;
-  --bs-body-bg: #191923;
-
-  --bs-body-one: #FFC107;
-  --bs-body-two: #8c8c8e;
-  --bs-body-three: #2C2C39;
-  --bs-body-four: #252531;
-  --bs-body-five: #1E1E28; */
-
-  /* --bs-black: #000000;
-  --bs-white: #ffffff;
-  --bs-body-font-family-my: Inter, OpenSansRegular, sans-serif !important; */
-
-  /* --bs-body-color: #000000;
-  --bs-bg: #ffffff;
-  --bs-btn: #2572ff;
-  --bs-h1: #2572ff;
-  --bs-icon: #2572ff;
-  --bs-mark_text: #2572ff;
-  --bs-text: #2572ff;
-  --bs-price: #2572ff;
-  --bs-title-faq: #2572ff;
-  --bs-bg_menu: var(--bs-body-bg);
-  --bs-color_menu: var(--bs-body-color);
-  --bs-color_logo: var(--bs-body-two);
-  
-  --bs-color_menu: #2572ff;
-  --bs-bg_footer: #2572ff;
-  --bs-color_footer: #2572ff;
-  --bs-color_footer: #2572ff;
-
-  --bs-body-one: #31C77F;
-  --bs-body-two: #171724;
-  --bs-body-three: #6B39BD;
-  --bs-body-four: #C5FCE4;
-  --bs-body-five: #23232F; */
-
-  /* гол */
-  /* --bs-body-five: #00318b;
-  --bs-body-four: #2572ff;
-  --bs-body-three: #929292;
-  --bs-body-two: #bed5ff;
-  --bs-body-one: #f6f7fa; */
-
-
-  /* зел и гол */
-  /* --bs-body-color: #000000;
-  --bs-body-bg: #ffffff;
-  --bs-body-text: #5d5d66;
-
-  --bs-body-one: #DAE4DE;
-  --bs-body-two: #31C77F;
-  --bs-body-three: #617AB4;
-  --bs-body-four: #6B39BD;
-  --bs-body-five: #171724; */
-
-
-
-
-
-
-  /* --wp--style--root--padding-left: var(--wp--preset--spacing--30); */
-
- /* Primary Brand Color */
-  --bs-primary: #31C77F; /*Кнопки, ссылки, выделение текста, ховер-эффекты акценты*/
-  --bs-primary-hover: #29A56C; /*Наведение на кнопку*/
-  --bs-primary-light: #B6E7D2; /*Для градиентов/фона*/
-  --bs-primary-dark: #218C5A; /*Для градиентов/фона*/
-
-  /* Secondary Accent */
-  --bs-secondary: #617AB4; /*Иконки, вторичные кнопки*/
-  --bs-secondary-hover: #4B659E; /*Наведение*/
-
-  /* Additional Accent */
-  --bs-accent: #6B39BD; 	/*Hero-блоки, фон секций*/
-  --bs-accent-hover: #592AA6; /*Активный цвет*/
-
-  /* Neutrals and Backgrounds */
-  --bs-light: #DAE4DE; /*Фон секций, карточек*/
-  --bs-dark: #171724; /*	Текст, футер, фон модалок*/
-  --bs-white: #ffffff;
-  --bs-black: #000000;
-
-  /* Bootstrap Status Colors */
-  --bs-success: #198754;
-  --bs-danger: #dc3545;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc800;
-
-  /* Neutrals for UI */
-  --bs-gray-100: #f8f9fa; /*Фон карточек, вводов*/
-  --bs-gray-200: #e9ecef;
-  --bs-gray-300: #dee2e6;
-  --bs-gray-400: #ced4da; /*Границы, инпуты*/
-  --bs-gray-500: #adb5bd;
-  --bs-gray-600: #6c757d; /*Вторичный текст*/
-  --bs-gray-700: #495057;
-  --bs-gray-800: #343a40;
-  --bs-gray-900: #212529;
-
-  /* Text and body settings */
-  --bs-body-font-family: Inter, OpenSansRegular, sans-serif !important;
-  --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 500;
-  --bs-body-line-height: 1.42;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
   --bs-body-color: var(--bs-dark);
-  --bs-body-bg: var(--bs-white);
-  --bs-body-text: #5d5d66;
+  --bs-body-bg: var(--bs-light);
 
-  /* Extended palette for custom roles */
-  --bs-body-one: var(--bs-light);
-  --bs-body-two: var(--bs-primary);
-  --bs-body-three: var(--bs-secondary);
-  --bs-body-four: var(--bs-accent);
-  --bs-body-five: var(--bs-dark);
-  
-} 
+  /* Extended palette for custom roles based on your colors */
+  --bs-body-one: var(--bs-light);     /* #FAF9F9 */
+  --bs-body-two: var(--bs-secondary); /* #D8B988 */
+  --bs-body-three: var(--bs-primary);   /* #2C6BC0 */
+  --bs-body-four: var(--bs-accent);    /* #7571B4 */
+  --bs-body-five: var(--bs-dark);      /* #282253 */
+ 
+
+}
+ 
 
  
+
+
+
+
 
 
 *,
@@ -207,7 +108,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-
+ /* --wp--style--root--padding-left: var(--wp--preset--spacing--30); */
    /* --wp--preset--spacing--30: clamp(1.5rem, 5vw, 2rem);
   --wp--preset--spacing--40: clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem);
   --wp--preset--spacing--50: clamp(2.5rem, 8vw, 4.5rem); */
