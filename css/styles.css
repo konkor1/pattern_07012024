@@ -60,12 +60,12 @@
   --bs-gray-900: #212529;
 
   /* Text and body settings (можете настроить под свои нужды) */
-  --bs-body-font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-body-font-family: Inter, OpenSansRegular, sans-serif !important;
   --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.5;
+  --bs-body-font-weight: 500;
+  --bs-body-line-height: 1.42;
   --bs-body-color: var(--bs-dark);
-  --bs-body-bg: var(--bs-light);
+  /* --bs-body-bg: var(--bs-light); */
 
   /* Extended palette for custom roles based on your colors */
   --bs-body-one: var(--bs-light);     /* #FAF9F9 */
@@ -105,7 +105,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-five);
   /* text-align: var(--bs-body-text-align); */
-  background-color: var(--bs-body-bg);
+  background-color: var(--bs-body-one);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
  /* --wp--style--root--padding-left: var(--wp--preset--spacing--30); */
@@ -3070,13 +3070,13 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: var(--bs-body-bg);
+  color: var(--bs-body-three);
   background-color: var(--bs-body-one);
   border-color: var(--bs-body-one);
 }
 .btn-primary:hover {
-  color: var(--bs-body-one);
-  background-color:var(--bs-body-bg);
+  color: var(--bs-body-three);
+  background-color:var(--bs-body-one);
   border-color: var(--bs-body-one);
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -3613,7 +3613,7 @@ textarea.form-control-lg {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: var(--bs-body-bg);
+  background-color: var(--bs-body-one);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -3822,8 +3822,8 @@ textarea.form-control-lg {
   border: 0;
 }
 .dropdown-item:hover, .dropdown-item:focus {
-  color: var(--bs-body-bg);
-  background-color: var(--bs-body-five);
+  color: var(--bs-body-one);
+  background-color: var(--bs-body-three);
 }
 .dropdown-item.active, .dropdown-item:active {
   color: var(--bs-body-three);
@@ -5580,7 +5580,7 @@ textarea.form-control-lg {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: var(--bs-body-bg);
+  background-color: var(--bs-body-one);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -7815,7 +7815,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: var(--bs-body-bg);
+  color: var(--bs-body-one);
 }
 
 .text-black-50 {
@@ -11355,7 +11355,7 @@ p {
 }
 
 .page-section h2.section-heading.title-light {
-  color: var(--bs-body-bg);
+  color: var(--bs-body-one);
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
 
@@ -11410,19 +11410,19 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: var(--bs-body-bg);
+  color: var(--bs-body-one);
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, 
 #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: var(--bs-body-five);
-  background-color: var(--bs-body-bg);
+  background-color: var(--bs-body-one);
 }
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
   color: var(--bs-body-color);
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-  color: var(--bs-body-four);
+  color: var(--bs-body-three);
 }
 
 @media (min-width: 992px) {
@@ -11442,7 +11442,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: var(--bs-body-bg);
+    background-color: var(--bs-body-one);
     box-shadow: 0px 6px 14px 0px rgba(7, 28, 55, 0.16); 
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -11841,14 +11841,14 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .brand-name1 {
-  color: var(--bs-body-bg);
+  color: var(--bs-body-one);
   font-weight: 600;
   font-size: 1.714rem;
   line-height: 1.3;
 }
 
 .navbar-shrink .brand-name1 {
-  color: var(--bs-body-four);
+  color: var(--bs-body-three);
 }
 
 /* ------------------------------------------------End Navigation---------------------------------------------------- */
@@ -11913,7 +11913,7 @@ a.cv_btn {
 }
 
 a.cv_btn:hover {
-  background-color: var(--bs-body-bg);
+  background-color: var(--bs-body-one);
   color: var(--bs-body-one);
   border: 1px solid #ffc107;
   text-decoration: none;
@@ -11989,7 +11989,7 @@ a.cv_btn:hover {
 } 
 @media (max-width: 992px) {
   .navbar-shrink .brand-name1 {
-    color: var(--bs-body-bg);
+    color: var(--bs-body-one);
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: var(--bs-body-color);
@@ -12100,7 +12100,7 @@ i[class^="flaticon-"]:before {
   display: block;
   padding: 35px 30px;
   text-align: left;
-  background-color: var(--bs-body-bg);
+  background-color: var(--bs-body-one);
   margin-top: 30px;
  
   -webkit-box-shadow: 5px 5px 10px 5px rgba(82, 90, 101, 0.15);
@@ -12232,13 +12232,13 @@ ul {
 }
 
 .faq-accordion .accordion .accordion-item .accordion-title {
-  color: var(--bs-body-bg);
+  color: var(--bs-body-one);
   position: relative;
   font-size: 18px;
   font-weight: 600;
   display: block;
   padding: 15px 25px 15px 15px;
-  background-color: var(--bs-body-four);
+  background-color: var(--bs-body-three);
   border-radius: 5px;
   cursor: pointer;
 }
@@ -12324,7 +12324,7 @@ a:hover {
   margin-bottom: 10px;
 }
 .faq-accordion .accordion .accordion-item.about-title a:hover{
-  color: var(--bs-body-three);
+  color: var(--bs-body-two);
 }
 /* ------------------------------------------------End FAQ---------------------------------------------------- */
 
@@ -12528,7 +12528,7 @@ section {
   box-shadow: 4px 4px 15px -6px rgb(0 0 0 / 35%);
   padding: 30px 20px;
   border-radius: 12px;
-  background-color: var(--bs-body-bg);
+  background-color: var(--bs-body-one);
 }
 
 #contact-page {
@@ -13040,12 +13040,12 @@ section#contact {
   display: inline-block;
   text-align: center;
   overflow: hidden;
-  background-color: var(--bs-body-four);
-  color: var(--bs-body-bg);
-  border: 2px solid  var(--bs-body-four);
+  background-color: var(--bs-body-three);
+  color: var(--bs-body-one);
+  /* border: 2px solid  var(--bs-body-four); */
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  border-radius: 3px;
+  border-radius: 5px;
   font-weight: 600;
   font-size: 1rem;
   padding-left: 40px;
@@ -13061,9 +13061,9 @@ section#contact {
 }
 
 .slider-button:hover {
-  color: var(--bs-body-bg);
+  color: var(--bs-body-one);
   background-color: var(--bs-body-five);
-  border: 2px solid var(--bs-body-bg);
+  /* border: 2px solid var(--bs-body-one); */
   text-decoration: none;
 }
 .swiper-button-next {
@@ -13264,8 +13264,8 @@ border-radius: 30px;
 
 .go-top:hover,
 .go-top:focus {
-  color: var(--bs-body-bg);
-  border: 2px solid var(--bs-body-bg);
+  color: var(--bs-body-one);
+  border: 2px solid var(--bs-body-one);
 }
 
 .go-top:hover::before,
@@ -13324,7 +13324,7 @@ div.wpforms-container-full .wpforms-form textarea:focus {
 
 div.wpforms-container-full button[type=submit]:not(:hover):not(:active) {
   background-color: var(--bs-body-four);
-  color: var(--bs-body-bg);
+  color: var(--bs-body-one);
   padding: 0px 40px;
   border-radius: 5px;
   box-shadow: 10px 15px 18px rgba(23,23,36,0.15);
@@ -13387,7 +13387,7 @@ a:where(:not(.wp-element-button)):focus {
 
 .team-item-wrap .team-img .normal-text span.subtitle {
   background: var(--bs-body-five);
-  color: var(--bs-body-bg);
+  color: var(--bs-body-one);
   font-size: 14px;
   font-weight: 400;
 }
@@ -13562,7 +13562,7 @@ a:where(:not(.wp-element-button)):focus {
 }
 
 .team-item-wrap .team-name a:hover {
-  color: var(--bs-body-bg);
+  color: var(--bs-body-one);
 }
 
 .team-item-wrap .team-title {
@@ -13579,11 +13579,11 @@ a:where(:not(.wp-element-button)):focus {
 
 .team-item-wrap .team-social .social-icon i {
   font-size: 14px;
-  color: var(--bs-body-bg);
+  color: var(--bs-body-one);
 }
 
 .team-item-wrap .team-social .social-icon:hover {
-  background-color: var(--bs-body-bg);
+  background-color: var(--bs-body-one);
   color: var(--bs-body-four);
 }
 
@@ -13821,10 +13821,11 @@ a:where(:not(.wp-element-button)):focus {
   -webkit-transition: .3s ease all;
   transition: .3s ease all;
   border: 1px solid var(--bs-body-five);
+  border-radius: 5px;
 }
 
 .clpricing-table .price-table.style4 .cl-pricetable-wrap .top {
-  background: var(--bs-body-five);
+  background: var(--bs-body-three);
 }
 
 .clpricing-table .price-table.style4 .cl-pricetable-wrap .top .cl-subheader h3 {
@@ -13894,7 +13895,7 @@ a:where(:not(.wp-element-button)):focus {
   font-weight: 400;
   color: var(--bs-body-five);
   text-transform: none;
-  background: var(--bs-body-bg);
+  background: var(--bs-body-one);
 }
 
 @media only screen and (max-width: 1199px) {
@@ -13964,16 +13965,15 @@ a:where(:not(.wp-element-button)):focus {
   padding: 0;
   outline: none;
   transition: all 0.3s ease 0s;
-  background: var(--bs-body-two);
-  color: var(--bs-body-bg);
+  background: var(--bs-body-three);
+  color: var(--bs-body-one);
   border-radius: 5px;
   box-shadow: 10px 15px 18px rgba(23,23,36,0.15);
 }
 
 .readon:hover,
 .readon:focus {
-  background: #2ca46d;
-  border: 1px solid #2ca46d;
+  background: var(--bs-body-five);
   box-shadow: none;
 }
 
@@ -13983,8 +13983,8 @@ a:where(:not(.wp-element-button)):focus {
 }
 
 .clpricing-table .price-table.style4 .cl-pricetable-wrap:hover .top {
-  background: var(--bs-body-four);
-  color: var(--bs-body-bg);
+  background: var(--bs-body-five);
+  color: var(--bs-body-one);
   transition: all 0.9s ease 0s;
 }
 
@@ -14002,7 +14002,7 @@ a:where(:not(.wp-element-button)):focus {
 
 .clpricing-table .price-table.style4 .cl-pricetable-wrap:hover {
   border: 1px solid var(--bs-body-four);
-  color: var(--bs-body-bg);
+  color: var(--bs-body-one);
   transition: all 0.7s ease 0s;
 }
 
@@ -14010,7 +14010,7 @@ a:where(:not(.wp-element-button)):focus {
 .clpricing-table .price-table.style4 .cl-pricetable-wrap:hover .top h5,
 .clpricing-table .price-table.style4 .cl-pricetable-wrap:hover .top h3,
 .clpricing-table .price-table.style4 .cl-pricetable-wrap:hover .top h3 .dolar {
-  color: var(--bs-body-bg);
+  color: var(--bs-body-one);
 }
 .text-price {
   padding-bottom: 20px;
@@ -14030,7 +14030,7 @@ a:where(:not(.wp-element-button)):focus {
   z-index: 999;
 }
 .white-heading{
-  color: var(--bs-body-bg);
+  color: var(--bs-body-one);
   font-size: 2.5rem;
 }
 .heading:after {
@@ -14236,7 +14236,7 @@ text-align: center;
   margin: 40px 0 20px 0;
 }
 .testimonial4_slide h4 {
-  color: var(--bs-body-bg);
+  color: var(--bs-body-one);
 }
 
 .testimonial .carousel {
@@ -14278,7 +14278,7 @@ padding-bottom:50px;
 }
 
 .counter-contents h2 {
-  color:  var(--bs-body-bg);
+  color:  var(--bs-body-one);
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 5px;
@@ -14368,7 +14368,7 @@ padding-bottom:50px;
   }
 
   .team_single_btn a {
-    background: var(--bs-body-four);
+    background: var(--bs-body-three);
     border-radius: 5px;
     color: var(--bs-white);
     display: inline-block;
@@ -14376,10 +14376,12 @@ padding-bottom:50px;
     padding: 12px 30px;
     transition: .5s;
     font-weight: 700;
+    box-shadow: 10px 15px 18px rgba(23, 23, 36, 0.15);
   }
 
   .team_single_btn a:hover {
-    background: var(--bs-body-three);
+    background: var(--bs-body-five);
+    box-shadow: none;
   }
 
   img {
@@ -14453,7 +14455,7 @@ body.overlay-is-linear-gradient .overlay-color {
   z-index: -1;
   display: block;
   transition: all 0.5s ease-in-out 0s;
-  background: -webkit-linear-gradient(45deg, #113f8a, #08bce9);
+  background: -webkit-linear-gradient(45deg, var(--bs-body-three), var(--bs-body-four));
   opacity: 0.75;
 }
 
@@ -14622,7 +14624,7 @@ body.overlay-is-linear-gradient .overlay-color {
 }
 
 .inner-page-hero .hero-text-area .breadcrumb-link:hover {
-  color: #08bce9;
+  color: var(--bs-body-five);
 }
 /* ------------------------------------------------------------------------------------------ */
 .image-container {
@@ -14785,7 +14787,7 @@ body.overlay-is-linear-gradient .overlay-color {
     outline: none;
     transition: all 0.3s ease 0s;
     background: var(--bs-body-two);
-    color: var(--bs-body-bg);
+    color: var(--bs-body-one);
     border-radius: 5px;
     box-shadow: 10px 15px 18px rgba(23, 23, 36, 0.15);
 }
