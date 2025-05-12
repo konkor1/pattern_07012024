@@ -14,11 +14,14 @@
 
 :root {
     
+ 
+
  /* Primary Color */
   --bs-primary: #2C6BC0; /* Основной синий: кнопки, ссылки, акценты */
   --bs-primary-hover: #24589e; /* Наведение */
   --bs-primary-light: #5a8ecd; /* Светлый вариант фона, градиенты */
   --bs-primary-dark: #1e4a81; /* Темный вариант */
+
 
   /* Secondary Color */
   --bs-secondary: #D8B988; /* Вторичный бежевый: выделения, акценты */
@@ -26,27 +29,32 @@
   --bs-secondary-light: #e0cbb0; /* Светлый вариант фона */
   --bs-secondary-dark: #9e825e; /* Темный вариант */
 
+
   /* Accent Color */
   --bs-accent: #7571B4; /* Фиолетовый акцент: заголовки, графика */
   --bs-accent-hover: #605c96; /* Наведение */
   --bs-accent-light: #a09cd0; /* Светлый вариант */
   --bs-accent-dark: #524f7e; /* Темный вариант */
 
+
   /* Light Neutral */
   --bs-light: #FAF9F9; /* Светлый нейтральный: основной фон, светлые элементы */
   --bs-light-hover: #e2e1e1;
   --bs-white: #ffffff;
+
 
   /* Dark Neutral */
   --bs-dark: #282253; /* Темный нейтральный: фон, текст, акценты */
   --bs-dark-hover: #1e1a3e;
   --bs-black: #000000;
 
+
   /* Bootstrap Status Colors (можно оставить по умолчанию или настроить) */
   --bs-success: #198754;
   --bs-danger: #dc3545;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc800;
+
 
   /* Neutrals for UI (можно оставить по умолчанию или настроить) */
   --bs-gray-100: #f8f9fa;
@@ -59,13 +67,14 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
 
+
   /* Text and body settings (можете настроить под свои нужды) */
   --bs-body-font-family: Inter, OpenSansRegular, sans-serif !important;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 500;
   --bs-body-line-height: 1.42;
   --bs-body-color: var(--bs-dark);
-  /* --bs-body-bg: var(--bs-light); */
+
 
   /* Extended palette for custom roles based on your colors */
   --bs-body-one: var(--bs-light);     /* #FAF9F9 */
@@ -73,7 +82,7 @@
   --bs-body-three: var(--bs-primary);   /* #2C6BC0 */
   --bs-body-four: var(--bs-accent);    /* #7571B4 */
   --bs-body-five: var(--bs-dark);      /* #282253 */
- 
+
 
 }
  
@@ -11347,11 +11356,21 @@ p {
   padding: 6rem 0;
 } 
 
-.page-section h2.section-heading, .page-section .section-heading.h2 {
+.page-section h2.section-heading {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 2.5rem;
   color: var(--bs-body-five);
+}
+
+.page-section h2.white-heading {
+   color: var(--bs-body-one);
+}
+.page-section h3.section-heading {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+  color: var(--bs-body-one);
 }
 
 .page-section h2.section-heading.title-light {
@@ -11388,7 +11407,7 @@ p {
 #mainNav {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-  background-color: var(--bs-body-two);
+  background-color: var(--bs-body-three);
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11822,11 +11841,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .footer .created {
-  color: var(--bs-body-three);
+  color: var(--bs-body-four);
   font-size: 1.2em;
 }
 .footer a:hover {
-  color: var(--bs-body-four);
+  color: var(--bs-body-two);
 }
 /* ------------------------------------------------Start Navigation---------------------------------------------------- */
 
@@ -11899,7 +11918,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 a.cv_btn {
   transition: .35s;
   display: inline-block;
-  margin-top: 20px;
+  margin: 20px 0px 20px 0px;
   border-radius: 4px;
   padding: 12px 25px;
   font-weight: 600;
@@ -11992,7 +12011,7 @@ a.cv_btn:hover {
     color: var(--bs-body-one);
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: var(--bs-body-color);
+    color: var(--bs-body-one);
 }
 }
 /* ------------------------------------------------End Masthead-------------------------------------------- */
@@ -12788,7 +12807,7 @@ section {
   margin-top: 0px;
 }
 section#contact {
-  background-color: var(--bs-body-three);
+  background-color: var(--bs-body-four);
   background-image: url('../assets/img/map-image.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -13558,7 +13577,7 @@ a:where(:not(.wp-element-button)):focus {
 }
 
 .team-item-wrap .team-img .normal-text .team-name {
-  background: var(--bs-body-four);
+  background: var(--bs-body-three);
 }
 
 .team-item-wrap .team-name a:hover {
@@ -13615,7 +13634,7 @@ a:where(:not(.wp-element-button)):focus {
 
 .parallax {
 
-  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../assets/img/team/bg-team.jpg');
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('../assets/img/team/bg-team.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
@@ -14488,8 +14507,9 @@ body.overlay-is-linear-gradient .overlay-color {
   z-index: 0;
   min-height: 100vh;
   padding: 120px 0;
-  background: #08bce9;
-  background: -webkit-linear-gradient(45deg, #113f8a, #08bce9);
+  /* background: #08bce9; */
+  /* background: -webkit-linear-gradient(45deg, #113f8a, #08bce9); */
+  background: -webkit-linear-gradient(45deg, var(--bs-body-three), var(--bs-body-four));
 }
 
 @media (max-width: 991px) {
