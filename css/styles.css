@@ -17,44 +17,27 @@
  
 
  /* Primary Color */
-  --bs-primary: #2C6BC0; /* Основной синий: кнопки, ссылки, акценты */
-  --bs-primary-hover: #24589e; /* Наведение */
-  --bs-primary-light: #5a8ecd; /* Светлый вариант фона, градиенты */
-  --bs-primary-dark: #1e4a81; /* Темный вариант */
-
+  --bs-primary: #E60606; 
 
   /* Secondary Color */
-  --bs-secondary: #D8B988; /* Вторичный бежевый: выделения, акценты */
-  --bs-secondary-hover: #c0a373; /* Наведение */
-  --bs-secondary-light: #e0cbb0; /* Светлый вариант фона */
-  --bs-secondary-dark: #9e825e; /* Темный вариант */
-
+  --bs-secondary: #CA9666; 
 
   /* Accent Color */
-  --bs-accent: #7571B4; /* Фиолетовый акцент: заголовки, графика */
-  --bs-accent-hover: #605c96; /* Наведение */
-  --bs-accent-light: #a09cd0; /* Светлый вариант */
-  --bs-accent-dark: #524f7e; /* Темный вариант */
-
+  --bs-accent: #887495; 
 
   /* Light Neutral */
-  --bs-light: #FAF9F9; /* Светлый нейтральный: основной фон, светлые элементы */
-  --bs-light-hover: #e2e1e1;
+  --bs-light: #E0E4E4; 
   --bs-white: #ffffff;
 
-
   /* Dark Neutral */
-  --bs-dark: #282253; /* Темный нейтральный: фон, текст, акценты */
-  --bs-dark-hover: #1e1a3e;
+  --bs-dark: #212532; 
   --bs-black: #000000;
-
 
   /* Bootstrap Status Colors (можно оставить по умолчанию или настроить) */
   --bs-success: #198754;
   --bs-danger: #dc3545;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc800;
-
 
   /* Neutrals for UI (можно оставить по умолчанию или настроить) */
   --bs-gray-100: #f8f9fa;
@@ -67,7 +50,6 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
 
-
   /* Text and body settings (можете настроить под свои нужды) */
   --bs-body-font-family: Inter, OpenSansRegular, sans-serif !important;
   --bs-body-font-size: 1rem;
@@ -75,13 +57,12 @@
   --bs-body-line-height: 1.42;
   --bs-body-color: var(--bs-dark);
 
-
   /* Extended palette for custom roles based on your colors */
-  --bs-body-one: var(--bs-light);     /* #FAF9F9 */
-  --bs-body-two: var(--bs-secondary); /* #D8B988 */
-  --bs-body-three: var(--bs-primary);   /* #2C6BC0 */
-  --bs-body-four: var(--bs-accent);    /* #7571B4 */
-  --bs-body-five: var(--bs-dark);      /* #282253 */
+  --bs-body-one: var(--bs-light);     
+  --bs-body-two: var(--bs-secondary); 
+  --bs-body-three: var(--bs-primary);   
+  --bs-body-four: var(--bs-accent);    
+  --bs-body-five: var(--bs-dark);     
 
 
 }
@@ -131,7 +112,9 @@ body {
 
 }
 
-
+.section-light {
+  background-color: var(--bs-white);
+}
 body .is-layout-flow > * + * {
   margin-block-start: 0;
   margin-block-end: 0;
@@ -13846,6 +13829,10 @@ a:where(:not(.wp-element-button)):focus {
 .clpricing-table .price-table.style4 .cl-pricetable-wrap .top {
   background: var(--bs-body-three);
 }
+.bottom ul{
+  background-color: var(--bs-white);
+}
+
 
 .clpricing-table .price-table.style4 .cl-pricetable-wrap .top .cl-subheader h3 {
   display: inline-block;
@@ -13914,7 +13901,7 @@ a:where(:not(.wp-element-button)):focus {
   font-weight: 400;
   color: var(--bs-body-five);
   text-transform: none;
-  background: var(--bs-body-one);
+  background: var(--bs-white);
 }
 
 @media only screen and (max-width: 1199px) {
@@ -13965,7 +13952,7 @@ a:where(:not(.wp-element-button)):focus {
 
   .readon {
     font-size: 12px !important;
-    line-height: 31px !important;
+    line-height: 35px !important;
     height: 35px !important;
   }
 }
@@ -14474,7 +14461,7 @@ body.overlay-is-linear-gradient .overlay-color {
   z-index: -1;
   display: block;
   transition: all 0.5s ease-in-out 0s;
-  background: -webkit-linear-gradient(45deg, var(--bs-body-three), var(--bs-body-four));
+  background: -webkit-linear-gradient(45deg, var(--bs-body-three), var(--bs-body-two));
   opacity: 0.75;
 }
 
